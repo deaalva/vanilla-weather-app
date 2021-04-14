@@ -1,3 +1,23 @@
 h1 {
   color: rgb(22, 135, 167);
+  font-size: 80px;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+
+h2,
+h3,
+ul {
+  color: black;
+}
+
+h2,
+ul {
+  font-size: 35px;
+  line-height: 25px;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 30px;
 }
