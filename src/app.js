@@ -1,1 +1,1 @@
-alert("select your city")
+alert("welcome!")
