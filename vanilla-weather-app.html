@@ -12,13 +12,24 @@
     </title>
 </head>
 <body>
-<div class="container">    
-<h1>
-    London, United Kingdom
-</h1>
-<a href="" class="btn btn-primary"> find your city
-</a>
-</div>
+<div class="container">
+    <form id="search-city">
+        <div class="mb-3">
+            <input type="text" class="form-control" id="city-input" placeholder="Type new city here" autofocus="on"
+                autocomplete="off" />
+        </div>
+        <button type="submit" class="btn btn-info">find your city</button>
+    </form>
+
+    <div class="row">
+        <div class="col-6">
+            <header>
+                <h1><strong> London, United Kingdom </strong></h1>
+                <h2 id="current-date">Tuesday, 13th April 2021</h2>
+                <h2 id="current-time">14:11</h2>
+                <h3>Mostly Cloudy</h3>
+            </header>
+        </div>
 <script src="src/app.js"></script> 
 </body>
 </html>
