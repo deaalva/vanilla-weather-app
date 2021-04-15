@@ -1,23 +1,103 @@
+body {
+  font-size: arial, sans-serif;
+  background-color: white;
+}
+
+.vanilla-weather {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid darkblue;
+  border-radius: 15px;
+}
+
+.vanilla-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+form .mb-3 {
+  max-width: fit-content;
+}
+form button {
+  position: relative;
+  bottom: 54px;
+  left: 210px;
+}
+
+.btn-info {
+  background-color: transparent;
+  border-color: #a8eb12;
+  transition: all 200ms ease-in-out;
+  color: white;
+}
+
+:hover.btn-info {
+  background-color: #a8eb12;
+  border-color: #a8eb12;
+}
+
 h1 {
-  color: rgb(22, 135, 167);
-  font-size: 80px;
-  line-height: 60px;
+  color: #a8eb12;
+  font-size: 50px;
+  line-height: 45px;
   padding-bottom: 10px;
 }
 
 h2,
 h3,
-ul {
-  color: black;
+h4,
+ul,
+small {
+  color: white;
 }
 
-h2,
-ul {
+h2 {
   font-size: 35px;
-  line-height: 25px;
+  line-height: 35px;
 }
 
-h3 {
+h3,
+ul {
   font-size: 25px;
-  line-height: 30px;
+  line-height: 35px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.current-weather .temperature {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  left: 26px;
+}
+.fa-cloud-sun {
+  font-size: 75px;
+  color: white;
+  position: relative;
+  left: 26px;
+}
+.current-weather .units {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: -24px;
+}
+
+.container {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 5%;
 }
