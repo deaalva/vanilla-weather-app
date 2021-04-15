@@ -19,6 +19,7 @@ body {
 form .mb-3 {
   max-width: fit-content;
 }
+
 form button {
   position: relative;
   bottom: 54px;
@@ -39,14 +40,13 @@ form button {
 
 h1 {
   color: #a8eb12;
-  font-size: 50px;
-  line-height: 45px;
-  padding-bottom: 10px;
+  font-size: 65px;
+  line-height: 50px;
+  padding-bottom: 20px;
 }
 
 h2,
 h3,
-h4,
 ul,
 small {
   color: white;
@@ -61,6 +61,7 @@ h3,
 ul {
   font-size: 25px;
   line-height: 35px;
+  padding-bottom: 20px;
 }
 
 li {
@@ -68,22 +69,26 @@ li {
   margin: 0;
   padding: 0;
 }
+
 .current-weather .temperature {
-  font-size: 50px;
+  font-size: 60px;
   color: white;
   position: relative;
-  left: 26px;
+  line-height: 1;
+  font-weight: 400;
+  left: 80px;
 }
+
 .fa-cloud-sun {
-  font-size: 75px;
+  font-size: 60px;
   color: white;
   position: relative;
-  left: 26px;
+  left: 80px;
 }
+
 .current-weather .units {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
-  text-decoration: none;
   position: relative;
   top: -24px;
 }
